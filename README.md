@@ -1,5 +1,5 @@
 ## KeyItaly
-Realizzato per il corso di Tecnologie e Sviluppo Web (TSW) 2023/2024. 
+Realizzato per il corso di Tecnologie per lo Sviluppo Web (TSW) 2023/2024. 
 
 Per una descrizione dettagliata delle funzionalità e della documentazione, consulta il file [Project proposal.pdf](https://github.com/g-cer/ProgettoTsw23-24/blob/main/Project%20proposal.pdf).
 

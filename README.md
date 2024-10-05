@@ -2,7 +2,7 @@
 
 Progetto per il corso di TSW 23-24, sito di e-commerce per la vendita di tastiere per PC e accessori come switch e keycaps.
 
-Le funzionalità sono elencante nel pdf insieme alla documentazione completa [Project proposal.pdf](https://github.com/g-cer/prova/blob/main/Project%20proposal.pdf)
+Le funzionalità sono elencante nel pdf insieme alla documentazione completa [Project proposal.pdf](https://github.com/g-cer/ProgettoTsw23-24/blob/main/Project%20proposal.pdf)
 
 ## Installazione
 

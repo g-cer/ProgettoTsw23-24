@@ -1,8 +1,6 @@
 ## KeyItaly
 Realizzato per il corso di Tecnologie e Sviluppo Web (TSW) 2023/2024. 
 
-KeyItaly è un sito di e-commerce specializzato nella vendita di tastiere per PC e accessori come switch e keycaps.
-
 Per una descrizione dettagliata delle funzionalità e della documentazione, consulta il file [Project proposal.pdf](https://github.com/g-cer/ProgettoTsw23-24/blob/main/Project%20proposal.pdf).
 
 ## Requisiti

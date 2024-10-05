@@ -1,24 +1,27 @@
-# keyItaly
+## KeyItaly
+Realizzato per il corso di Tecnologie e Sviluppo Web (TSW) 2023/2024. 
 
-Progetto per il corso di TSW 23-24, sito di e-commerce per la vendita di tastiere per PC e accessori come switch e keycaps.
+KeyItaly è un sito di e-commerce specializzato nella vendita di tastiere per PC e accessori come switch e keycaps.
 
-Le funzionalità sono elencante nel pdf insieme alla documentazione completa [Project proposal.pdf](https://github.com/g-cer/ProgettoTsw23-24/blob/main/Project%20proposal.pdf)
+Per una descrizione dettagliata delle funzionalità e della documentazione, consulta il file [Project proposal.pdf](https://github.com/g-cer/ProgettoTsw23-24/blob/main/Project%20proposal.pdf).
 
+## Requisiti
+- **Java JDK** (versione 11)
+- **Tomcat** (versione 9.0)
 ## Installazione
 
-1. Creare e popolare il database tramite gli script SQL "db\keyItaly.sql" e "db\insert.sql"
+1. Esegui gli script SQL presenti nella cartella `db` `keyItaly.sql` per la creazione e `insert.sql` per il popolamento del db.
 
-2. Modificare in "WebContent\WEB-INF\web.xml" il parametro "WEBCONTENT_PATH" con l'indirizzo completo della directory "\immaginiCatalogo"
+2. Modifica il parametro `WEBCONTENT_PATH` nel file `WebContent\WEB-INF\web.xml` con il percorso completo della directory `\immaginiCatalogo` nel tuo ambiente locale.
 
-3. Modificare in "WebContent\META-INF\context.xml" la propria password di accesso al server Mysql@localhost:3306
+3. Apri il file `WebContent\META-INF\context.xml` e inserisci la tua password per l'accesso al server MySQL su `localhost:3306`.
 
-4. Tramite la shell dei comandi:
-- Accedere alla cartella WebContent
-- Creare il file WAR:
-	- jar –cvf keyItaly.war .
- 
- oppure esportare il file WAR tramite Eclipse
+4. Accedi alla cartella `WebContent` tramite terminale e crea il file WAR con il comando:
+	```bash
+	jar -cvf keyItaly.war .
+	```
+	In alternativa, esporta il file WAR direttamente tramite Eclipse.
 
-5. Copiare il file WAR nella cartella “webapps” di Tomcat
+5. Copia il file WAR nella cartella `webapps` di Tomcat.
 
-6. Lanciare il server Tomcat
+6. Avvia il server Tomcat per eseguire l'applicazione, il sito sarà accessibile tramite il browser all'indirizzo `http://localhost:8080/keyItaly`

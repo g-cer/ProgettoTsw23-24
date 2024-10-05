@@ -13,10 +13,11 @@ Le funzionalità sono elencante nel pdf insieme alla documentazione completa [Pr
 3. Modificare in "WebContent\META-INF\context.xml" la propria password di accesso al server Mysql@localhost:3306
 
 4. Tramite la shell dei comandi:
-	- Accedere alla cartella WebContent
-	- Creare il file WAR:
-   - jar –cvf keyItaly.war .
-oppure esportare il file WAR tramite Eclipse
+- Accedere alla cartella WebContent
+- Creare il file WAR:
+	- jar –cvf keyItaly.war .
+ 
+ oppure esportare il file WAR tramite Eclipse
 
 5. Copiare il file WAR nella cartella “webapps” di Tomcat
 
